@@ -34,3 +34,12 @@ conda env create -f <name_file>.yml
 ```bash
 conda env remove -n <env_name>
 ```
+
+```
+conda env remove -n "D:\conda_env\env_goatfarm" && rmdir /s /q "D:\conda_env\env_goatfarm"
+```
+
+```
+conda env remove -p "D:\PTIoT-Project\FarmGoatOTA" && rmdir /s /q "D:\PTIoT-Project\FarmGoatOTA"
+```
+
